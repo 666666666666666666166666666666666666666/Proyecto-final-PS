@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Creadores_A">
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Creadores"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Los creadores de esta aplicacion es el equipo CovidTracking que estan conformados por:"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="Inicio" />
+</LinearLayout>

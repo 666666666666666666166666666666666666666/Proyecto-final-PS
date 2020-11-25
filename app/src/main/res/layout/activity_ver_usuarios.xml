@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/valle"
+    android:orientation="vertical">
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/textView74"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:gravity="center"
+                   android:text="Ususrios"
+                   android:textColor="#050505"
+                   android:textSize="30sp" />
+
+               <androidx.recyclerview.widget.RecyclerView
+                   android:id="@+id/rvUsuarios"
+                   android:layout_width="match_parent"
+                   android:layout_height="658dp"
+                   android:background="#902196F3">>
+
+               </androidx.recyclerview.widget.RecyclerView>
+          </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>

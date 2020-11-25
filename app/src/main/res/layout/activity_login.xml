@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocolor"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="307dp"
+            android:layout_height="199dp"
+            android:layout_weight="1"
+
+            android:contentDescription="@string/TextViewInf6_String"
+            tools:srcCompat="@drawable/ic_account_circle_black_24dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/idCorreoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/bordes_blanco"
+        android:hint="    Correo"
+        android:inputType="textEmailAddress"
+        android:textColor="#100E0E"
+        android:textColorHint="#0B0A0A" />
+
+    <EditText
+        android:id="@+id/idContraseñaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/bordes_blanco"
+        android:hint="      Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#100E0E" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|bottom">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/idRegistroLogin"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo_2"
+        android:hint="Registrarse" />
+
+    <Button
+        android:id="@+id/idLoginLogin"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:hint="Login" />
+</LinearLayout>

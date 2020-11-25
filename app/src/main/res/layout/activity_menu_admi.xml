@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuAdmi">
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu de Administrador"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnVistaSugerencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="vistaSuge"
+        android:text="Vista Sugerencias" />
+
+    <Button
+        android:id="@+id/btnMedicos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ListaMedico"
+        android:text="Habilitar Medico" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="Volver" />
+</LinearLayout>

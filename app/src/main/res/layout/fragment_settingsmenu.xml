@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingsmenu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/celesxd">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSugerencias"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="#C9FF9800"
+            android:text="Realizar Sugerencias"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btnAcercade"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="#902196F3"
+            android:text="Acerca de"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btnCreadores"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="#D0FF9800"
+            android:text="Creadores"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btnAdministraor"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="Administrador "
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="#B72196F3"
+            android:text="salir"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+</FrameLayout>
